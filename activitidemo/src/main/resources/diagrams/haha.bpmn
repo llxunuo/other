@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:activiti="http://activiti.org/bpmn" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:omgdc="http://www.omg.org/spec/DD/20100524/DC" xmlns:omgdi="http://www.omg.org/spec/DD/20100524/DI" xmlns:tns="http://www.activiti.org/test" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" expressionLanguage="http://www.w3.org/1999/XPath" id="m1532049165321" name="" targetNamespace="http://www.activiti.org/test" typeLanguage="http://www.w3.org/2001/XMLSchema">
+  <process id="myProcess" isClosed="false" isExecutable="true" name="My process" processType="None">
+    <extensionElements>
+      <activiti:executionListener class="com.anxpp.demo.activiti.simple.listener.SimpleProcessEndListener" event="end"/>
+    </extensionElements>
+    <startEvent id="startevent_simple" name="Start"/>
+    <userTask activiti:exclusive="true" id="usertask1" name="领导审批">
+      <extensionElements>
+        <activiti:taskListener class="com.anxpp.demo.activiti.simple.listener.LeaderCheckListener" event="create"/>
+        <activiti:taskListener event="create"/>
+      </extensionElements>
+    </userTask>
+    <endEvent id="endevent_simple" name="End"/>
+    <sequenceFlow id="flow_toCheck" sourceRef="startevent_simple" targetRef="usertask1"/>
+    <sequenceFlow id="flow_toEnd" sourceRef="usertask1" targetRef="endevent_simple"/>
+    <sequenceFlow id="_2" sourceRef="startevent_simple" targetRef="usertask1"/>
+    <sequenceFlow id="_3" sourceRef="usertask1" targetRef="endevent_simple"/>
+  </process>
+  <bpmndi:BPMNDiagram documentation="background=#FFFFFF;count=1;horizontalcount=1;orientation=0;width=842.4;height=1195.2;imageableWidth=832.4;imageableHeight=1185.2;imageableX=5.0;imageableY=5.0" id="Diagram-_1" name="New Diagram">
+    <bpmndi:BPMNPlane bpmnElement="myProcess">
+      <bpmndi:BPMNShape bpmnElement="startevent_simple" id="Shape-startevent_simple">
+        <omgdc:Bounds height="32.0" width="32.0" x="170.0" y="290.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="32.0" width="32.0" x="0.0" y="0.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="usertask1" id="Shape-usertask1">
+        <omgdc:Bounds height="55.0" width="105.0" x="290.0" y="280.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="55.0" width="105.0" x="0.0" y="0.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="endevent_simple" id="Shape-endevent_simple">
+        <omgdc:Bounds height="32.0" width="32.0" x="500.0" y="290.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="32.0" width="32.0" x="0.0" y="0.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge bpmnElement="_2" id="BPMNEdge__2" sourceElement="startevent_simple" targetElement="usertask1">
+        <omgdi:waypoint x="202.0" y="306.0"/>
+        <omgdi:waypoint x="290.0" y="307.5"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="0.0" width="0.0" x="0.0" y="0.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="_3" id="BPMNEdge__3" sourceElement="usertask1" targetElement="endevent_simple">
+        <omgdi:waypoint x="395.0" y="307.5"/>
+        <omgdi:waypoint x="500.0" y="306.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="0.0" width="0.0" x="0.0" y="0.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</definitions>
