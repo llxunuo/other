@@ -11,9 +11,14 @@ public class RedisCacheListener implements MessageListener {
     @Autowired
     private StringRedisTemplate stringRedisTemplate;
 
-    @Override
     public void onMessage(Message message, byte[] bytes) {
         Object deserialize = stringRedisTemplate.getValueSerializer().deserialize(message.getBody());
         System.out.println("接收到的值："+String.valueOf(deserialize));
     }
+
+//    @Override
+//    public void onMessage(Message message, byte[] bytes) {
+//        Object deserialize = stringRedisTemplate.getValueSerializer().deserialize(message.getBody());
+//        System.out.println("接收到的值："+String.valueOf(deserialize));
+//    }
 }

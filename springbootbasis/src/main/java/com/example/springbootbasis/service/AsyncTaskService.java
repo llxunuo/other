@@ -22,10 +22,11 @@ public class AsyncTaskService {
     public Future<String> helloUser(String name) throws InterruptedException {
         long start = System.currentTimeMillis();
         System.out.println("线程 " + Thread.currentThread().getName());
-        String url = String.format("http://localhost:9100/users/%s",name);
-        String result = restTemplate.getForObject(url, String.class);
+//        String url = String.format("http://localhost:9100/users/%s",name);
+//        String result = restTemplate.getForObject(url, String.class);
         Thread.sleep(1000L);
         System.out.println(name + "执行耗时： "+(System.currentTimeMillis() - start));
-        return new AsyncResult<>(result);
+//        return new AsyncResult<String>(result);
+        return new AsyncResult<String>("");
     }
 }

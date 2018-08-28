@@ -17,7 +17,7 @@ public class BookContrller {
     @ApiOperation(value="获取图书列表", notes="获取图书列表1")
     @RequestMapping(value={""}, method= RequestMethod.GET)
     public List<Book> getBook() {
-        List<Book> book = new ArrayList<>(books.values());
+        List<Book> book = new ArrayList<Book>(books.values());
         return book;
     }
 

@@ -16,7 +16,7 @@ public class jdbcController {
 
     @RequestMapping("get/{id}")
     public User selectUser(@PathVariable Long id){
-        return jdbcTemplate.queryForObject("select * from user where id=?",new Object[]{id}, new BeanPropertyRowMapper<>(User.class));
+        return jdbcTemplate.queryForObject("select * from user where id=?",new Object[]{id}, new BeanPropertyRowMapper<User>(User.class));
     }
 
     @RequestMapping("/baocun")
