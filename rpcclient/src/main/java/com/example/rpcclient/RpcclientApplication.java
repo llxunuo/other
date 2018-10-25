@@ -10,7 +10,7 @@ import java.net.InetSocketAddress;
 @SpringBootApplication
 public class RpcclientApplication {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws ClassNotFoundException {
         SpringApplication.run(RpcclientApplication.class, args);
 
         for (int i=0;i<100;i++){
@@ -18,5 +18,6 @@ public class RpcclientApplication {
                     .getRemoteProxyObj(HelloService.class, new InetSocketAddress("10.10.10.111", 8011));
             System.out.println(service.sayHi("客户端传入的调用参数, ")+i);
         }
+
     }
 }

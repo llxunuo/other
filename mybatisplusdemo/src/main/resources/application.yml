@@ -1,0 +1,20 @@
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/mybatisplus?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
+    username: root
+    password: root
+
+
+mybatis-plus:
+#  config-location: classpath:mybatis-config.xml
+  mapper-locations: classpath*:mapper/*.xml
+  type-aliases-package: com.example.mybatisplusdemo.entity
+  global-config:
+    id-type: 2
+logging:
+  level:
+    com:
+      example:
+        mybatisplusdemo: DEBUG

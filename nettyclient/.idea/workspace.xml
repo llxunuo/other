@@ -31,13 +31,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NettyClient.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="NettyClient.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/NettyClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="20" column="46" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="46" />
+            <state relative-caret-position="493">
+              <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#617#851#0" expanded="true" />
                 <element signature="e#850#851#0" expanded="true" />
               </folding>
             </state>
@@ -48,20 +49,18 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/EchoClient.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="493">
-              <caret line="41" column="61" selection-start-line="41" selection-start-column="61" selection-end-line="41" selection-end-column="61" />
+              <caret line="37" column="46" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#960#1320#0" expanded="true" />
-                <element signature="e#1319#1320#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EchoClientHandler.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="EchoClientHandler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/EchoClientHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
+            <state relative-caret-position="493">
               <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -73,8 +72,8 @@
       <file leaf-file-name="StringEncoder.class" pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final.jar!/io/netty/handler/codec/string/StringEncoder.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="16" column="51" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="58" />
+            <state relative-caret-position="170">
+              <caret line="20" column="35" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -96,6 +95,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>MessageChannel</find>
+    </findStrings>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -125,18 +129,17 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="21" />
-    <option name="y" value="9" />
-    <option name="width" value="1400" />
-    <option name="height" value="1040" />
+    <option name="x" value="57" />
+    <option name="y" value="64" />
+    <option name="width" value="1450" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -174,13 +177,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../rediscache" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Problems" />
@@ -294,14 +298,21 @@
       <workItem from="1535936717116" duration="5269000" />
       <workItem from="1536024885198" duration="1978000" />
       <workItem from="1536109653735" duration="2514000" />
+      <workItem from="1536196090415" duration="1869000" />
+      <workItem from="1537410939967" duration="607000" />
+      <workItem from="1537939144749" duration="2188000" />
+      <workItem from="1538015748600" duration="1887000" />
+      <workItem from="1539152786904" duration="938000" />
+      <workItem from="1539223203879" duration="591000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11473000" />
+    <option name="totallyTimeSpent" value="19553000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="57" y="64" width="1450" height="1000" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -320,10 +331,10 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3407173" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1296875" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19352518" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="BPMNPalette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -344,6 +355,179 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resource/log4j.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/EchoClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="41" column="61" selection-start-line="41" selection-start-column="61" selection-end-line="41" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/EchoClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final.jar!/io/netty/handler/codec/string/StringEncoder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="16" column="51" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final.jar!/io/netty/handler/codec/MessageToMessageEncoder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/NettyClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#617#851#0" expanded="true" />
+            <element signature="e#850#851#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/log4j.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/NettyClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="20" column="46" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#617#851#0" expanded="true" />
+            <element signature="e#850#851#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/EchoClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="41" column="61" selection-start-line="41" selection-start-column="61" selection-end-line="41" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final.jar!/io/netty/handler/codec/string/StringEncoder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="16" column="51" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final.jar!/io/netty/handler/codec/MessageToMessageEncoder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/EchoClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/log4j.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/NettyClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="20" column="46" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#617#851#0" expanded="true" />
+            <element signature="e#850#851#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/EchoClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="41" column="61" selection-start-line="41" selection-start-column="61" selection-end-line="41" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final.jar!/io/netty/handler/codec/string/StringEncoder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="16" column="51" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final.jar!/io/netty/handler/codec/MessageToMessageEncoder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/EchoClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -364,6 +548,7 @@
           <caret line="20" column="46" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#617#851#0" expanded="true" />
             <element signature="e#850#851#0" expanded="true" />
           </folding>
         </state>
@@ -375,8 +560,66 @@
           <caret line="41" column="61" selection-start-line="41" selection-start-column="61" selection-end-line="41" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#960#1320#0" expanded="true" />
-            <element signature="e#1319#1320#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final.jar!/io/netty/handler/codec/string/StringEncoder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="16" column="51" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final.jar!/io/netty/handler/codec/MessageToMessageEncoder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/EchoClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/log4j.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/NettyClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="46" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#617#851#0" expanded="true" />
+            <element signature="e#850#851#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/EchoClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="61" selection-start-line="41" selection-start-column="61" selection-end-line="41" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -425,6 +668,7 @@
           <caret line="20" column="46" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#617#851#0" expanded="true" />
             <element signature="e#850#851#0" expanded="true" />
           </folding>
         </state>
@@ -436,8 +680,6 @@
           <caret line="41" column="61" lean-forward="true" selection-start-line="41" selection-start-column="61" selection-end-line="41" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#960#1320#0" expanded="true" />
-            <element signature="e#1319#1320#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -486,6 +728,7 @@
           <caret line="17" column="41" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#617#851#0" expanded="true" />
             <element signature="e#850#851#0" expanded="true" />
           </folding>
         </state>
@@ -505,13 +748,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final.jar!/io/netty/handler/codec/string/StringEncoder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="16" column="51" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final.jar!/io/netty/handler/codec/MessageToMessageEncoder.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -519,35 +755,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/NettyClient.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final.jar!/io/netty/handler/codec/string/StringEncoder.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="20" column="46" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#850#851#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="170">
+          <caret line="20" column="35" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/EchoClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
-          <caret line="41" column="61" selection-start-line="41" selection-start-column="61" selection-end-line="41" selection-end-column="61" />
+          <caret line="37" column="46" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#960#1320#0" expanded="true" />
-            <element signature="e#1319#1320#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/EchoClientHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
+        <state relative-caret-position="493">
           <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/NettyClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#617#851#0" expanded="true" />
+            <element signature="e#850#851#0" expanded="true" />
           </folding>
         </state>
       </provider>
